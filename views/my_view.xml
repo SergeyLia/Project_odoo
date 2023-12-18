@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="myapp_product_form_view">
+            <field name="name">myapp.product.form</field>
+            <field name="model">myapp.product</field>
+            <field name="arch" type="xml">
+                <form string="Product Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="warehouse_from"/>
+                            <field name="warehouse_to"/>
+                            <field name="quantity"/>
+                            <field name="status"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
